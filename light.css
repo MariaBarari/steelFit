@@ -1,0 +1,83 @@
+
+/* STEELFIT - LIGHT THEME */
+
+body.light-theme {
+    --bg-dark: #f1f5f9;
+    --bg-card: #ffffff;
+    --bg-card-hover: #e2e8f0;
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --border-color: #cbd5e1;
+    --shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+/* Header and footer */
+body.light-theme header {
+    background-color: rgba(255, 255, 255, 0.92);
+}
+
+body.light-theme footer {
+    background-color: #e2e8f0;
+}
+
+body.light-theme .logo img {
+    background-color: #ffffff;
+}
+
+/* Headings */
+body.light-theme h3 {
+    color: var(--text-primary);
+}
+
+/* Tables */
+body.light-theme th {
+    background-color: #e2e8f0;
+}
+
+body.light-theme tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+body.light-theme tr:hover {
+    background-color: var(--bg-card-hover);
+}
+
+/* Forms and input fields */
+body.light-theme input[type="text"],
+body.light-theme input[type="email"],
+body.light-theme input[type="password"],
+body.light-theme input[type="number"],
+body.light-theme select,
+body.light-theme textarea {
+    background-color: #ffffff;
+    color: #1e293b;
+}
+
+/* Active workout */
+body.light-theme .active-workout-table tr.completed {
+    background-color: #dcfce7;
+}
+
+body.light-theme .set-button {
+    background-color: #ffffff;
+    color: #1e293b;
+}
+
+body.light-theme .set-button:hover {
+    background-color: #e2e8f0;
+}
+
+body.light-theme .active-workout-table tr.completed .set-button {
+    background-color: #bbf7d0;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
